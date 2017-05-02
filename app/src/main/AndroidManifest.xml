@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lmasi.repair">
+
+    <uses-permission android:name="android.permission.INTERNET"        />
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+         <activity android:name=".mainpage">
+
+         </activity>
+
+
+        <activity android:name=".makeform">
+
+
+        </activity>
+
+        <activity android:name=".phone">
+
+        </activity>
+
+        <activity android:name=".check_page">
+
+
+        </activity>
+
+        <activity android:name=".phone_check" >
+
+        </activity>
+
+        <activity android:name=".lastpage"></activity>
+
+
+    </application>
+
+</manifest>
